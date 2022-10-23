@@ -25,15 +25,15 @@ namespace ConsoleApp1
                 var strX = x[i];
                 if ((a - x[i]) > 0)
                 {
-                    Console.WriteLine(String.Format($"x = {strX} | y = {(a + 2 * b) / (a - x[i])}"));
+                    Console.WriteLine(string.Format($"x = {strX} | y = {(a + 2 * b) / (a - x[i])}"));
                 }
                 else if ((a - x[i]) == 0)
                 {
-                    Console.WriteLine(String.Format($"x = {strX} | y = {(a * a) - 3 * b}"));
+                    Console.WriteLine(string.Format($"x = {strX} | y = {(a * a) - 3 * b}"));
                 }
                 else
                 {
-                    Console.WriteLine(String.Format($"x = {strX} | y = {Math.Abs(c + x[i])}"));
+                    Console.WriteLine(string.Format($"x = {strX} | y = {Math.Abs(c + x[i])}"));
                 }
             }
 
